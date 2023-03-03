@@ -1,0 +1,13 @@
+P = float(input("Enter the principal amount: "))
+
+T = float(input("Enter the time period (in years): "))
+
+R = float(input("Enter the interest rate (as a percentage): "))
+
+# calculate simple interest
+
+SI = (P * T * R) / 100
+
+# print the result
+
+print("The simple interest is:", SI)
